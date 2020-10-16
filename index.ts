@@ -31,16 +31,14 @@ async function writeNowPlayingToFile() {
   network.statusEmitter.on("status", (s) => processor.handleState(s));
 
   processor.on("nowPlaying", async (state) => {
-    const { deviceId, trackId, trackSlot, trackType } = state;
+    const { trackDeviceId, trackId, trackSlot, trackType } = state;
 
     const track = await network.db.getMetadata({
       trackId,
       trackType,
       trackSlot,
-      deviceId,
+      deviceId: trackDeviceId,
     });
-
-    console.log(track);
 
     // You can pick other stuff from track
     const trackName = `${track?.artist?.name} - ${track?.title}`;
