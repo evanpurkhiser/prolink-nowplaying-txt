@@ -654,10 +654,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-prolink-connect@^0.2.0-prerelease.7:
-  version "0.2.0-prerelease.7"
-  resolved "https://registry.yarnpkg.com/prolink-connect/-/prolink-connect-0.2.0-prerelease.7.tgz#1af38a9d73ef22c4595465d1564e7b58600e5eb5"
-  integrity sha512-N/ydSsYrTSo9SFENoi3np+qP762y8jTRHSFbhzaJl0/f9Xu+EImvS/+Jc1d4QYWsWaLgzqJVfwp+yilZjjRLhg==
+prolink-connect@^0.2.0-prerelease.9:
+  version "0.2.0-prerelease.9"
+  resolved "https://registry.yarnpkg.com/prolink-connect/-/prolink-connect-0.2.0-prerelease.9.tgz#e155665dc6e052d747505556a74b3d3b3f302f3c"
+  integrity sha512-R1PxAS1Mw7vzER/Gr23AmR5mTZubr52ObBU+Y+ViOmy4Pgeyq6loObY2BK3O8IE5D6GbHwC/m7Sg397eyEHJeQ==
   dependencies:
     "@sentry/node" "^5.16.1"
     "@sentry/tracing" "^5.25.0"

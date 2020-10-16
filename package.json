@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/signale": "^1.4.1",
     "prettier": "^2.1.2",
-    "prolink-connect": "^0.2.0-prerelease.7",
+    "prolink-connect": "^0.2.0-prerelease.9",
     "signale": "^1.4.0",
     "typescript": "^4.0.3",
     "@tsconfig/node12": "^1.0.7"
