@@ -4,14 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@tsconfig/node12": "^1.0.7",
     "@types/signale": "^1.4.1",
     "prettier": "^2.1.2",
-    "prolink-connect": "^0.2.0-prerelease.9",
+    "prolink-connect": "^0.2.0-prerelease.10",
     "signale": "^1.4.0",
-    "typescript": "^4.0.3",
-    "@tsconfig/node12": "^1.0.7"
+    "typescript": "^4.0.3"
   },
-
   "scripts": {
     "start": "tsc && node index.js"
   }
