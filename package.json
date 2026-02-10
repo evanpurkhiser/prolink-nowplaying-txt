@@ -1,5 +1,6 @@
 {
-  "name": "nowPlayingTxt",
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "prolink-nowplaying-txt",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
