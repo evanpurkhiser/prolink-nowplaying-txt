@@ -2,18 +2,20 @@
   "$schema": "https://json.schemastore.org/package.json",
   "name": "prolink-nowplaying-txt",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
   "dependencies": {
     "@tsconfig/node12": "^1.0.7",
     "@types/signale": "^1.4.1",
-    "prettier": "^3.3.3",
     "prolink-connect": "file:../prolink-connect/",
     "signale": "^1.4.0",
     "typescript": "^5.7.2"
   },
-  "scripts": {
-    "start": "tsc && node index.js"
+  "devDependencies": {
+    "oxfmt": "^0.41.0"
   },
   "volta": {
     "node": "22.11.0",
