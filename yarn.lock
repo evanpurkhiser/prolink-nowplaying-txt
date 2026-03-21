@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@evanpurkhiser/oxc-config@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@evanpurkhiser/oxc-config/-/oxc-config-0.4.0.tgz#26166ad3558d343905ea2b3cc03942ca164070f3"
+  integrity sha512-taIsXcwyl97OaiIGbmEvTWZ/6KK0XlkHY4toedbIJXOm1yapvJIOWKhxDEysCC1Z9vNTI50w1KeqvcXmEoURCg==
+  dependencies:
+    eslint-plugin-simple-import-sort "^12.1.1"
+
 "@oxfmt/binding-android-arm-eabi@0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@oxfmt/binding-android-arm-eabi/-/binding-android-arm-eabi-0.41.0.tgz#09438448ab9479730582cd00fb86e4c33795a364"
@@ -365,6 +372,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+eslint-plugin-simple-import-sort@^12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
+  integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
 expand-template@^2.0.3:
   version "2.0.3"
