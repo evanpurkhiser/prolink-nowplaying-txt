@@ -3,7 +3,7 @@ import '@sentry/tracing';
 import {MixstatusProcessor, bringOnline} from 'prolink-connect';
 import signale from 'signale';
 
-import fs from 'fs';
+import fs from 'node:fs';
 
 async function writeNowPlayingToFile() {
   signale.await('Bringing up prolink network');
