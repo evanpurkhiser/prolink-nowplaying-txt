@@ -13,14 +13,14 @@
   "dependencies": {
     "@tsconfig/node12": "^1.0.7",
     "@types/signale": "^1.4.1",
-    "prolink-connect": "file:../prolink-connect/",
+    "prolink-connect": "^0.11.0",
     "signale": "^1.4.0",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "@evanpurkhiser/oxc-config": "^0.5.0",
-    "oxfmt": "^0.41.0",
-    "oxlint": "^1.56.0"
+    "@evanpurkhiser/oxc-config": "^0.8.0",
+    "oxfmt": "^0.47.0",
+    "oxlint": "^1.62.0"
   },
   "volta": {
     "node": "24.0.0",
