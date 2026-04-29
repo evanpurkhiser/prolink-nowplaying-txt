@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
+  "packageManager": "pnpm@10.15.1",
   "scripts": {
     "start": "tsc && node index.js",
     "lint": "oxlint index.ts",
@@ -23,7 +24,6 @@
     "oxlint": "^1.62.0"
   },
   "volta": {
-    "node": "24.0.0",
-    "yarn": "1.22.22"
+    "node": "24.0.0"
   }
 }
