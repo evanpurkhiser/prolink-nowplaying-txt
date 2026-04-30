@@ -1,0 +1,4 @@
+strictDepBuilds: false
+allowBuilds:
+  better-sqlite3: false
+  core-js: false

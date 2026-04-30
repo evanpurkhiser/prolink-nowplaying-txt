@@ -4,7 +4,16 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
-  "packageManager": "pnpm@10.15.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.0"
+    }
+  },
   "scripts": {
     "start": "tsc && node index.js",
     "lint": "oxlint index.ts",
@@ -22,8 +31,5 @@
     "@evanpurkhiser/oxc-config": "^0.8.0",
     "oxfmt": "^0.47.0",
     "oxlint": "^1.62.0"
-  },
-  "volta": {
-    "node": "24.0.0"
   }
 }
